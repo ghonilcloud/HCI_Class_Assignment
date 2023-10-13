@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+    color: white;
+}
+body, h2 {
+    color: white;
+}
+ul, ol {
+    text-align: left;
+}
+body {
+    background-image: url('background.jpg');
+    overflow: scroll;
+}       
+th, td {
+    background-color: #ffffff;
+    color: black
+}
+a {
+    color: rgb(140, 195, 247);
+    text-align: center;
+}
+.kuesus {
+    align-items: center;
+}
+img {
+    height:15px;
+    width:15px;
+}
+* {
+    box-sizing: border-box;
+}
+.column {
+    float: left;
+    width: 33.3%;
+    padding: 10px;
+    height: 240px; 
+    opacity: 0.95;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
